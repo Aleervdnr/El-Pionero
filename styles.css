@@ -164,6 +164,16 @@ a.link__li{
         margin: 0;
     }
 
+    .card-container__about-us{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .card__about-us{
+        width: 45%;
+    }
+
 }
 
 @media (min-width:1024px){
@@ -186,25 +196,40 @@ a.link__li{
 
     .container__about-us{
         display: flex;
-        margin: 0 50px;
     }
 
     .img__about-us{
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
         align-self: center;
     }
 
+    h3{
+        margin: 0;
+    }
+
     .text-container{
-        padding: 0 0 0 40px;
         display: flex;
         flex-direction: column;
         justify-content: center;
     }
 
     .p__about-us{
-        text-align: left;
+        margin: 10px 50px;
+        text-align: justify;
 
+    }
+
+    .card-container__about-us{
+        width: 100%;
+    }
+
+    /* .card__about-us{
+        width: 45%;
+    } */
+
+    .title__card{
+        margin: 0;
     }
 
 }
