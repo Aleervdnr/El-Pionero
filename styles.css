@@ -151,6 +151,10 @@ a.link__li{
     margin: 10px 0;
 }
 
+.title__card{
+    margin: 0;
+}
+
 @media (min-width:768px){
     .hero{
         justify-content: center;
@@ -219,17 +223,4 @@ a.link__li{
         text-align: justify;
 
     }
-
-    .card-container__about-us{
-        width: 100%;
-    }
-
-    /* .card__about-us{
-        width: 45%;
-    } */
-
-    .title__card{
-        margin: 0;
-    }
-
 }
