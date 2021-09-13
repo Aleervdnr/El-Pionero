@@ -223,4 +223,10 @@ a.link__li{
         text-align: justify;
 
     }
+
+    @media (min-width:1300px){
+        h3{
+            margin: 15px 0 ;
+        }
+    }
 }
