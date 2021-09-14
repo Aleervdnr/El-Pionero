@@ -107,14 +107,13 @@ a.link__li{
 
 .section{
     padding: 20px;
+    text-align: center;
 }
 
 .h2__about-us{
     text-align: center;
     text-transform: uppercase;
     font-weight: normal;
-    margin-top: 20px;
-    margin-bottom:  50px ;
     letter-spacing: 2px;
     
 }
@@ -132,9 +131,6 @@ a.link__li{
     text-align: center;
 }
 
-.text-container{
-    margin-left: 20px;
-}
 
 .img__about-us{
     display: block;
@@ -144,6 +140,10 @@ a.link__li{
     margin: 0;
     margin-right: auto;
     margin-left: auto;
+}
+
+.text-container{
+    padding: 0 20px;
 }
 
 .p__about-us{
@@ -178,11 +178,18 @@ a.link__li{
         margin: 0;
     }
 
+    .img__about-us{
+        margin: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
     .card-container__about-us{
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
+
 
     .card__about-us{
         width: 45%;
@@ -214,20 +221,23 @@ a.link__li{
 
     .container__about-us{
         display: flex;
+        align-items: center;
+        /* border-top: 1px solid #00000090;
+        border-bottom: 1px solid #00000090; */
     }
 
     
     .img__about-us{
-        width: 450px;
-        height: 450px;
+        width: 500px;
+        height: 500px;
     }
 
-    h3{
+    /* h3{
         margin: 0;
-    }
+    } */
 
     .subtitle__about-us{
-        margin-top: 0;
+        margin-bottom: 0;
     }
 
     .text-container{
@@ -242,21 +252,16 @@ a.link__li{
 
     }
 
+    .p__about-us, .p__card{
+        font-size: 14px;
+    }
+
     @media (min-width:1300px){
         h3{
             margin: 15px 0 ;
         }
     }
 
-    @media (min-width:1440px){
-        .img__about-us{
-            width: 500px;
-            height: 500px;
-            align-self: center;
-        }
-
-
-    }
 
 
 }
