@@ -132,8 +132,13 @@ a.link__li{
     text-align: center;
 }
 
+.text-container{
+    margin-left: 20px;
+}
+
 .img__about-us{
     display: block;
+    /* align-self: center; */
     width: 300px;
     height: 300px;
     margin: 0;
@@ -176,7 +181,7 @@ a.link__li{
     .card-container__about-us{
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .card__about-us{
@@ -232,7 +237,7 @@ a.link__li{
     }
 
     .p__about-us{
-        margin: 10px 50px;
+        margin-top: 10px;
         text-align: justify;
 
     }
