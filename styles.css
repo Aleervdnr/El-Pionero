@@ -183,7 +183,8 @@ a.link__li{
     grid-template-areas: 
     "a b"
     "c d"
-    "e f";
+    "e f"
+    "g i";
     grid-gap: 15px;
     margin: 0 20px;
 }
@@ -198,6 +199,10 @@ a.link__li{
 
 .img-3{
     grid-area: c;
+}
+
+.img-8{
+    display: none;
 }
 
 @media (min-width:768px){
@@ -237,6 +242,10 @@ a.link__li{
         "d e f";
         grid-gap: 15px;
         margin: 0 30px;
+    }
+
+    .img-8{
+        display: block;
     }
 
 }
