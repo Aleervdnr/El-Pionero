@@ -105,7 +105,7 @@ a.link__li{
 
 
 
-.about-us{
+.section{
     padding: 20px;
 }
 
@@ -149,10 +149,15 @@ a.link__li{
     border: 1px solid #00000030;
     padding: 10px;
     margin: 10px 0;
+    background-color: #00000005;
 }
 
 .title__card{
     margin: 0;
+}
+
+.p__card{
+    color: var(--black-opacity)
 }
 
 @media (min-width:768px){
@@ -198,18 +203,26 @@ a.link__li{
         width: 50%;
     }
 
+    .section{
+        padding: 20px 70px;
+    }
+
     .container__about-us{
         display: flex;
     }
 
+    
     .img__about-us{
-        width: 500px;
-        height: 500px;
-        align-self: center;
+        width: 450px;
+        height: 450px;
     }
 
     h3{
         margin: 0;
+    }
+
+    .subtitle__about-us{
+        margin-top: 0;
     }
 
     .text-container{
@@ -229,4 +242,16 @@ a.link__li{
             margin: 15px 0 ;
         }
     }
+
+    @media (min-width:1440px){
+        .img__about-us{
+            width: 500px;
+            height: 500px;
+            align-self: center;
+        }
+
+
+    }
+
+
 }
