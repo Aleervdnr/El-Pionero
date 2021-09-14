@@ -3,6 +3,11 @@
     --gray-title: #535659;
     --black-opacity: #00000090;
 }
+
+*{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'PT Sans', sans-serif;
     font-style: 16px;
@@ -174,7 +179,7 @@ a.link__li{
 }
 
 .article-galeria{
-    background-color: #faf3f3;
+    background-color: #00000005;
     padding-bottom: 20px;
 }
 
@@ -203,6 +208,15 @@ a.link__li{
 
 .img-8{
     display: none;
+}
+
+.h2__testimonios::before{
+    content: "";
+    position: absolute;
+    margin-top: 30px;
+    width: 169px;
+    height: 1.9px;
+    background-color: black;
 }
 
 
