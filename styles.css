@@ -2,6 +2,7 @@
     --white: #ffffff;
     --gray-title: #535659;
     --black-opacity: #00000090;
+    --grayishBlue: hsl(229, 6%, 66%);
 }
 
 *{
@@ -150,10 +151,12 @@ a.link__li{
 }
 
 .card__about-us{
-    border: 1px solid #00000030;
+    border-radius: 5px;
+    border-top: 1px solid #00000090;
     padding: 10px;
     margin: 10px 0;
-    background-color: #00000005;
+    background-color: #00000007;
+    box-shadow: 0px 10px 30px -20px var(--grayishBlue);
 }
 
 .title__card{
