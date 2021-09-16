@@ -19,7 +19,7 @@ body{
     height: 55px;
     background-color: var(--white);
     display: flex;
-    padding: 0 30px;
+    padding-left:30px;
     justify-content: space-between;
     align-items: center;
     position: fixed;
@@ -50,8 +50,11 @@ a.link__li{
 }
 
 .li__nav{
+    display: flex;
+    align-items: center;
+    height: 100%;
     list-style: none;
-    margin: 0 15px;
+    padding: 0 15px;
 }
 
 .ul__nav{
@@ -321,7 +324,23 @@ a.link__li{
 
     .nav{
         display: block;
+        height: 100%;
     }
+
+    .ul__nav{
+        height: 100%;
+        margin: 0;
+    }
+
+    .li__nav:hover{
+        background-color: red;
+    }
+
+    .link__li >.li__nav:hover{
+        color: white;
+    }
+
+
 
     .hero{
         justify-content: center;
